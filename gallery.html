@@ -1,36 +1,74 @@
-<!DOCTYPE html>
 <html>
+<!DOCTYPE html>
 <head>
-	<title>Gallery(fake page)</title>
-</head>
-<body leftmargin="230" rightmargin="230" topmargin="50" bgcolor="#C9C3C3">
-<table align="center">
-	<tr>
-	<td ><a href="index.html">Home</a></td>
-	<td><a href="gallery.html">Galery</a></td>
-	<td><a href="family.html">Family</a></td>
-	<td><a href="city.html">City</a></td>
-	<td><a href="contact_me.html">Contact me</a></td>
-	<td><a href="reg.html">Registration</a></td>
-	</tr>
-</table>
-<table>
-	<tr>
-			<td><img src="pics/pic.jpg"  height="300" width="400" hspace="20" vspace="20">	</td>
-			<td><img src="pics/game_ps.jpeg"  height="300" width="400" hspace="20" vspace="20"></td>
-	</tr>
-	<tr>
-		<td><img src="pics/doc2.jpg"  height="300" width="400" hspace="20" vspace="20">	</td>
-		<td><img src="pics/golf.jpg"  height="300" width="400" hspace="20" vspace="20"></td>
-	</tr>
-	<tr>
-		<td><img src="pics/fitness.jpg"  height="600" width="400" hspace="20" vspace="20">	</td>
-		<td><img src="pics/fitness_rest.jpg"  height="600" width="400" hspace="20" vspace="20"></td>
-	</tr>
-	<tr>
-		<td></td>
-	</tr>
-</table>
+	<title>Gallery(fake page)</title><meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
+    <style> .img-responsive{
+        height: 300px;
+    }
+
+        #dlin, #dlin2{
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+	<div class="contaner-fluid">
+		<!-- Logo -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="index.html" class="navbar-brand">The Internet Programming HomeWork</a>
+		</div>
+
+		<!-- Menu Items-->
+		<div class="collapse navbar-collapse" id="mainNavBar">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a> </li>
+				<li class="active"><a href="gallery.html">Galery</a></li>
+				<li><a href="family.html">Family</a></li>
+				<li><a href="city.html">City</a></li>
+				<li><a href="contact_me.html">Contact me</a></li>
+				<li><a href="reg.html">Registration</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="contaier-fluid">
+
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 col-xs-offset-2">
+
+    <img src="pics/pic.jpg" class="img-responsive" width="70%"  vspace="20">
+    <img src="pics/game_ps.jpeg" id="games_ps" class="img-responsive" width="70%" vspace="20">
+    <img src="pics/fitness.jpg" id="dlin" class="img-responsive" width="70%" vspace="20">
+
+
+            </div>
+            <div class="col-md-5 col-md-offset-1 col-xs-offset-2">
+    <img src="pics/doc2.jpg" class="img-responsive" width="70%"  vspace="20">
+    <img src="pics/golf.jpg" class="img-responsive" width="70%"  vspace="20">
+	<img src="pics/fitness_rest.jpg" id="dlin2" class="img-responsive" width="70%" vspace="20">
+
+
+                </div>
+
+        </div>
+
+
+    </div>
+	
+</table>
+</div>
 </body>
 </html>
+
