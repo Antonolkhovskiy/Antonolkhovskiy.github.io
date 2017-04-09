@@ -19,8 +19,8 @@
     <script src="scripts/bootstrap.min.js"></script>
 
 </head>
-<body leftmargin="230" rightmargin="230" topmargin="50" bgcolor="#C9C3C3">
-<nav class="navbar navbar-default">
+<body  style="background-color:#f3ffbe;">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="contaner-fluid">
         <!-- Logo -->
         <div class="navbar-header">
@@ -45,39 +45,71 @@
         </div>
     </div>
 </nav>
+<!--ContactMeForm-->
+<div class="contaner-fluid" style="margin-top:9%;">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+<form>
+    <div class="form-group">
+        <label for="name"  class="col-md-2 col-xs-3  control-label">Name</label>
+        <div class="col-md-9 col-md-offset-1 col-xs-9">
+        <input type="text" class="form-control" id="name" placeholder="John Smith">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="mail" class="col-md-3 col-xs-3  control-label">Email Address</label>
+        <div class="col-md-9 col-xs-9">
+        <input type="email" class="form-control" id="mail" placeholder="example@domain">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="text" class="col-md-2 col-xs-3  control-label">Message</label>
+        <div class="col-md-9 col-md-offset-1 col-xs-9">
+            <textarea class="form-control" id="text" rows="3"></textarea>
+        </div>
+    </div>
 
-<table align="center" bgcolor="#FAF985">
-<form align="left">
-   <tr><td> Your name<br>
-    <input type="text" name="cf_name"><br>
-    </td></tr>
-    <tr><td>
-    Your e-mail<br>
-    <input type="text" name="cf_email"><br>
-    </td></tr>
-    <tr><td>
-    Message<br>
-    <textarea name="cf_message"  rows="3" cols="60">
-    </textarea><br>
-    </td></tr>
-    <tr><td>
-    <input type="submit" value="Send">
-    <input type="reset" value="Clear">
-    </td></tr>
+    <div class="col-md-10 col-xs-12">
+        <button type="submit" class="btn btn-default">Send Message</button>
+       </div>
 </form>
-</table>
+        </div>
+    </div>
 
-<h3 align="center">You can also follow me on the social networks</h3>
+    <div class="row">
+        <h3 align="center">You can also follow me on the social networks</h3>
+    </div>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-4  col-xs-5 col-xs-offset-2">
+            <div class="col-md-1 col-xs-1">
+            <a href="https://www.facebook.com/Hide-the-Pain-Harold-259512860761226/" target="_blank">
+                <img src="pics/Facebook_logo.png" width="100" height="100" hspace="10" vspace="10">
+            </a>
+            </div>
 
-<div align="center">
-<a href="https://www.facebook.com/Hide-the-Pain-Harold-259512860761226/" target="_blank">
-<img src="pics/Facebook_logo.png" width="100" height="100" hspace="10" vspace="10">
-</a>
-<a href="https://vk.com/haroldpain" target="_blank">
-<img src="pics/VK_logo.png" width="100" height="100" hspace="10" vspace="10">
-</a>
+            <div class="col-md-1 col-md-offset-4 col-xs-1 col-xs-offset-8">
+                <a href="https://vk.com/haroldpain" target="_blank">
+                    <img src="pics/VK_logo.png" width="100" height="100" hspace="10" vspace="10">
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+     <!--
+
+   <div align="center">
+   <a href="https://www.facebook.com/Hide-the-Pain-Harold-259512860761226/" target="_blank">
+   <img src="pics/Facebook_logo.png" width="100" height="100" hspace="10" vspace="10">
+   </a>
+   <a href="https://vk.com/haroldpain" target="_blank">
+   <img src="pics/VK_logo.png" width="100" height="100" hspace="10" vspace="10">
+   </a>
+   </div>
+   </table>-->
+
+
 </div>
-
-
 </body>
 </html>
