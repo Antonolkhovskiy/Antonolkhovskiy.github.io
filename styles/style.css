@@ -27,7 +27,7 @@ p{
 }
 
 .file-upload:after {
-    content: "Обзор";
+    content: "Browse";
     position: absolute;
     display: block;
     top: 0;
